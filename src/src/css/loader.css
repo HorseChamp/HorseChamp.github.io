@@ -1,0 +1,78 @@
+body {
+	background: black;
+}
+
+.loader{
+	margin-left: 38px;
+}
+.main{
+	font-family: Calibri, sans-serif;
+	text-align: center;
+	color: white;
+	padding: 400px 20px 40px 20px;
+	font-size: 35px;
+}
+
+
+.circle{
+	border: 2px solid white;
+	border-radius: 25px;
+	margin-left:
+	width: 100%;
+	padding: 5px;
+	background: white;
+	float: left;
+	margin-top: px;
+	margin-left: 15px;
+	animation: move 0.4s infinite alternate ease forwards;
+	-webkit-animation: move 0.4s infinite alternate ease forwards;
+	-o-animation: move 0.4s infinite alternate ease forwards;
+
+}
+
+.circle:first-child {
+	margin-left: 850px;
+}
+
+.circle:nth-child(2) {
+	animation-delay: 0.2s;
+}
+
+.circle:nth-child(3) {
+	animation-delay: 0.3s;
+}
+
+.circle:nth-child(4) {
+	animation-delay: 0.4s;
+}
+
+.circle:nth-child(5) {
+	animation-delay: 0.5s;
+}
+
+.circle:nth-child(6) {
+	animation-delay: 0.6s;
+}
+
+.circle:last-child {
+	animation-delay: 0.7s;
+	}
+
+@keyframes move{
+	from{
+		margin-top: 0px;
+		opacity: 0
+	}
+	to{
+		margin-top: 20px;
+		opacity: 1;
+	}
+}
+
+
+.palka {
+	color: white;
+	text-align: center;
+	margin-top: 60px;
+	font-size: 17px;
+}	
